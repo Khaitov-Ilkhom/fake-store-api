@@ -50,7 +50,7 @@ const BasketComponent = () => {
                                 </button>
                             </div>
                         </td>
-                        <td className="max-w-[200px] text-center ">${product.price * product.stock}</td>
+                        <td className="max-w-[200px] text-center ">${(product.price * product.stock).toFixed(2)}</td>
                     </tr>
                 )
             }
