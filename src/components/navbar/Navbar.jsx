@@ -22,7 +22,7 @@ const Navbar = () => {
                   <ul className="w-full flex justify-center items-center gap-4">
                       <li className="font-['Lato'] flex justify-center items-center gap-2 py-1 px-3 bg-blue-50 rounded-lg shadow-md"><input className="outline-none bg-transparent" type="text" placeholder="Search..."/> <BiSearchAlt/></li>
                       <li> <FaRegHeart/> </li>
-                      <li><Link className="relative" to={'/basket'}><SlBasket/> <span className="w-5 h-5 flex font-semibold items-center justify-center text-xs -top-3 -right-3  bg-rose-500 absolute rounded-full">{state.length !== 0 ? state.length : <></>}</span> </Link></li>
+                      <li><Link className="relative" to={'/basket'}><SlBasket/> <span className="w-5 h-5 flex font-semibold items-center justify-center text-white text-xs -top-3 -right-3  bg-rose-500 absolute rounded-full">{state.length !== 0 ? state.length : <></>}</span> </Link></li>
                   </ul>
               </nav>
         </Container>
